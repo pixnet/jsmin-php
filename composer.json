@@ -1,0 +1,24 @@
+{
+    "name": "pixnet/jsmin-php",
+    "type": "library",
+    "description": "PHP implementation of Douglas Crockford's JSMin.",
+    "keywords": [],
+    "homepage": "http://www.crockford.com",
+    "authors": [
+        {
+            "name": "Ryan Grove",
+            "email": "ryan@wonko.co"
+        },
+        {
+            "name": "Douglas Crockford",
+            "email": "douglas@crockford.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.1"
+    },
+    "autoload": {
+        "classmap": [ "JSMin.php" ]
+    },
+    "minimum-stability": "dev"
+}
